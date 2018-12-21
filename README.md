@@ -10,10 +10,10 @@ Design a 4-bit ULA, according to the structure given in the classroom, having th
 0. Sum of two unsigned 4-bit integers (A + B);
 1. Subtraction of two unsigned 4-bit integers (A-B);
 2. Complement of 1 of A (A ');
-3. Operation OU (A.OU.B);
-4. AND operation (A.AND.B);
-5. Offset to the right of A (with insertion of 0 in BMS);
-6. Shift to the left of A (with insertion of 0 in BmS);
+3. OR Operation (A OR B);
+4. AND operation (A AND B);
+5. Offset to the right of A (with insertion of 0 in MSB);
+6. Shift to the left of A (with insertion of 0 in LSB);
 7. Comparison of A and B;
 
 The project had to follow the diagram below:
