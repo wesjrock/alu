@@ -1,0 +1,86 @@
+Quartus II
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+14
+1116
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+SomadorMesmo
+# storage
+db|SomadorMesmo.(0).cnf
+db|SomadorMesmo.(0).cnf
+# case_insensitive
+# source_file
+somadormesmo.bdf
+471578f9f2827cdd780512d6cb78d4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Somador4bits
+# storage
+db|SomadorMesmo.(1).cnf
+db|SomadorMesmo.(1).cnf
+# case_insensitive
+# source_file
+somador4bits.bdf
+5535e2dcfbbee07b189e6ebbb6a29d0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Somador4bits:inst
+}
+# macro_sequence
+
+# end
+# entity
+SomadorCompleto
+# storage
+db|SomadorMesmo.(2).cnf
+db|SomadorMesmo.(2).cnf
+# case_insensitive
+# source_file
+somadorcompleto.bdf
+f0b2541a54ede1e1adbccc1dd7d333d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Somador4bits:inst|SomadorCompleto:inst3
+Somador4bits:inst|SomadorCompleto:inst2
+Somador4bits:inst|SomadorCompleto:inst1
+Somador4bits:inst|SomadorCompleto:inst
+}
+# macro_sequence
+
+# end
+# complete
+

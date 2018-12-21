@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ULA">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ULA|lpm_mux2:inst9|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_b3e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ULA|lpm_mux3:inst11|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_23e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

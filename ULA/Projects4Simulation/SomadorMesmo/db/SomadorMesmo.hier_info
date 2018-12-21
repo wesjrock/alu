@@ -1,0 +1,60 @@
+|SomadorMesmo
+CIN => Somador4bits:inst.CIN
+A[0] => Somador4bits:inst.A[0]
+A[1] => Somador4bits:inst.A[1]
+A[2] => Somador4bits:inst.A[2]
+A[3] => Somador4bits:inst.A[3]
+B[0] => Somador4bits:inst.B[0]
+B[1] => Somador4bits:inst.B[1]
+B[2] => Somador4bits:inst.B[2]
+B[3] => Somador4bits:inst.B[3]
+
+
+|SomadorMesmo|Somador4bits:inst
+CIN => SomadorCompleto:inst.CIN
+A[0] => SomadorCompleto:inst.A
+A[1] => SomadorCompleto:inst1.A
+A[2] => SomadorCompleto:inst2.A
+A[3] => SomadorCompleto:inst3.A
+B[0] => SomadorCompleto:inst.B
+B[1] => SomadorCompleto:inst1.B
+B[2] => SomadorCompleto:inst2.B
+B[3] => SomadorCompleto:inst3.B
+
+
+|SomadorMesmo|Somador4bits:inst|SomadorCompleto:inst3
+CIN => inst4.IN0
+CIN => inst5.IN0
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+
+
+|SomadorMesmo|Somador4bits:inst|SomadorCompleto:inst2
+CIN => inst4.IN0
+CIN => inst5.IN0
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+
+
+|SomadorMesmo|Somador4bits:inst|SomadorCompleto:inst1
+CIN => inst4.IN0
+CIN => inst5.IN0
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+
+
+|SomadorMesmo|Somador4bits:inst|SomadorCompleto:inst
+CIN => inst4.IN0
+CIN => inst5.IN0
+A => inst.IN0
+A => inst1.IN0
+B => inst.IN1
+B => inst1.IN1
+
+

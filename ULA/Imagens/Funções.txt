@@ -1,0 +1,17 @@
+000 - AND
+001 - OU
+010 - Complemento
+011 - Somador
+100 - Subtrator
+101 - 
+110 - 
+111 - 
+
+
+
+Testes:
+000 - AND - 1110 e 0110
+001 - OU - 1110 ou 0110
+010 - Complemento - 0100
+011 - Somador - 0100 + 0101
+100 - Subtrator - 0100 - 0001
