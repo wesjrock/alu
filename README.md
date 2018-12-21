@@ -24,7 +24,7 @@ HOW TO COMPILE
 --------------------------------------------------
 ```bash
 1. Install Quartus software 
-2. Open the project file `ULA.qpf` and Compile it.
+2. Open the project file `ULA\ULA.qpf` and Compile it.
 ```
 
 ALU
